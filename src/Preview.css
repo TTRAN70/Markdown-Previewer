@@ -1,0 +1,24 @@
+img {
+  width: 40vw;
+}
+
+.presize {
+  width: 100%; 
+  height: 95%;
+  resize: vertical;
+  overflow-y: auto; 
+  overflow-wrap: break-word; 
+  min-height: 96%;
+  padding-left: 10px; 
+  padding-right: 10px;
+  background-color: var(--fg-color);
+  font-family: 'Rubik', sans-serif;
+  color: #CACACA;
+  border-radius: 0 0 10px 10px;
+}
+
+@media (max-width: 500px) {
+  .presize {
+    resize: none;
+  }
+}
