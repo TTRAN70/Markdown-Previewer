@@ -1,4 +1,4 @@
-# FreeCodeCamp-Markdown-Previewer
+Markdown-Previewer
 
 Converts Markdown Text from 'Text Editor' and Previews it
 
